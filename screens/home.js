@@ -23,7 +23,7 @@ export default function Home({route, navigation}) {
             <View style={styles.header}>
                 {/* left */}
                 <View style={{width: 20}}>
-                    <TouchableOpacity style={{marginLeft: 10}}>
+                    <TouchableOpacity style={{marginLeft: 10}} onPress={() => navigation.openDrawer()}>
                         <Image source={require('../assets/menu.png')} style={{width: 15.56, height: 16.07}} />
                     </TouchableOpacity>
                 </View>

@@ -1,5 +1,5 @@
 # neko-foodapp
-React Native with expo, Front UI
+React Native with expo, FrontEnd UI, React Navigation 5x
 
 ## Init
 - yarn add @react-navigation/native
@@ -9,6 +9,10 @@ React Native with expo, Front UI
 ## Drawer navi
 - yarn add @react-navigation/drawer
 - const Drawer = createDrawerNavigator()
+- navigation.openDrawer()
+- navigation.closeDrawer()
+- navigation.toggleDrawer()
+
 
 ## Tree
 * Drawer.Navigator
